@@ -1,0 +1,14 @@
+{
+  "name": "witcher",
+  "version": "1.0.0",
+  "description": "landing page for the game",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass -w sass/main.scss css/style.css"
+  },
+  "author": "Sevket",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
