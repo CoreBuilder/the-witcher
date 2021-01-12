@@ -36,6 +36,9 @@
   &__left {
     width: 33.3333%;
     display: table-cell;
+    @include respond(tab-port) {
+      vertical-align: middle;
+    }
   }
 
   &__right {
@@ -60,6 +63,10 @@
 
     -webkit-hyphens: auto;
     hyphens: auto;
+
+    @include respond(phone) {
+      font-size: 1rem;
+    }
   }
 
   &__close {

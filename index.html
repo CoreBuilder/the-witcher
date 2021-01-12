@@ -16,7 +16,7 @@
           type="image/png"
           href="img/favicon.png">
 
-    <title>The Witcher 3 | Wild hunt for adventurous people</title>
+    <title>The Witcher 3 | Wild Hunt</title>
 </head>
 
 <body>
@@ -51,7 +51,7 @@
     <header class="header">
         <div class="header__logo-box">
             <img src="img/logo-white.png"
-                 alt="Logo"
+                 alt="Header Logo"
                  class="header__logo">
         </div>
 
@@ -98,15 +98,21 @@
                 </div>
                 <div class="col-1-of-2">
                     <div class="composition">
-                        <img src="img/Skellige_Islands.png"
-                             alt="Photo 1"
-                             class="composition__photo composition__photo--p1">
-                        <img src="img/Novigrad.png"
-                             alt="Photo 2"
-                             class="composition__photo composition__photo--p2">
-                        <img src="img/No_Mans_Land.png"
-                             alt="Photo 3"
-                             class="composition__photo composition__photo--p3">
+                        <img srcset="img/witcher-1.jpg 1280w, img/witcher-1-large.jpg 1920w"
+                             sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                             alt="About Photo 1"
+                             class="composition__photo composition__photo--p1"
+                             src="img/witcher-1-large.jpg">
+                        <img srcset="img/witcher-2.jpg 1280w, img/witcher-2-large.jpg 1920w"
+                             sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                             alt="About Photo 2"
+                             class="composition__photo composition__photo--p2"
+                             src="img/witcher-2-large.jpg">
+                        <img srcset="img/witcher-3.jpg 1280w, img/witcher-3-large.jpg 1920w"
+                             sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                             alt="About Photo 3"
+                             class="composition__photo composition__photo--p3"
+                             src="img/witcher-3-large.jpg">
                     </div>
                 </div>
             </div>
@@ -294,8 +300,8 @@
             <div class="row">
                 <div class="story">
                     <figure class="story__shape">
-                        <img src="img/Novigrad.png"
-                             alt="Witcher Image"
+                        <img src="img/witcher-2.jpg"
+                             alt="Story Image 1"
                              class="story__img">
                         <figcaption class="story__caption">
                             Geralt's Story
@@ -318,8 +324,8 @@
             <div class="row">
                 <div class="story">
                     <figure class="story__shape">
-                        <img src="img/Skellige_Islands.png"
-                             alt="Witcher Image"
+                        <img src="img/witcher-3-large.jpg"
+                             alt="Story Image 2"
                              class="story__img">
                         <figcaption class="story__caption">
                             Triss Merigold
@@ -346,11 +352,11 @@
 
         </section>
 
-        <!-- Section: BOOK -->
-        <section class="section-book">
+        <!-- Section: BUY -->
+        <section class="section-buy">
             <div class="row">
-                <div class="book">
-                    <div class="book__form">
+                <div class="buy">
+                    <div class="buy__form">
                         <form action="#"
                               class="form">
 
@@ -418,20 +424,27 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer__logo-box">
-            <img src="img/logo-green-2x.png"
-                 alt="Full logo"
-                 class="footer__logo">
+            <picture class="footer__logo">
+                <source srcset="img/logo-footer-small-1x.png 1x, img/logo-footer-small-2x.png 2x"
+                        media="(max-width:37.5em)">
+                <source srcset="img/logo-footer-small-1x.png 1x, img/logo-footer-small-2x.png 2x"
+                        media="(max-width:56.25em)">
+                <img srcset="img/logo-footer-1x.png 1x, img/logo-footer-2x.png 2x"
+                     alt="Footer Logo"
+                     src="img/logo-footer-2x.png">
+            </picture>
+
         </div>
         <div class="row">
             <div class="col-1-of-2">
                 <div class="footer__navigation">
                     <ul class="footer__list">
                         <li class="footer__item"><a href=""
-                               class="footer__link">Company</a></li>
-                        <li class="footer__item"><a href=""
-                               class="footer__link">Contact</a></li>
+                               class="footer__link">Store</a></li>
                         <li class="footer__item"><a href=""
                                class="footer__link">Careers</a></li>
+                        <li class="footer__item"><a href=""
+                               class="footer__link">Support</a></li>
                         <li class="footer__item"><a href=""
                                class="footer__link">Privacy</a></li>
                         <li class="footer__item"><a href=""
@@ -441,9 +454,9 @@
             </div>
             <div class="col-1-of-2">
                 <p class="footer__copyright">
-                    Built by <a href="#"
-                       class="footer__link">Sevket Evli</a> for the game <a href="#"
-                       class="footer__link">Geralt</a> Copyright &copy; by Şevket Evli.
+                    CD PROJEKT®, <a href="#"
+                       class="footer__link">The Witcher®</a> are registered trademarks of CD PROJEKT Capital Group.
+                    Copyright &copy; Şevket Evli.
                 </p>
             </div>
         </div>
@@ -456,11 +469,11 @@
          id="popup">
         <div class="popup__content">
             <div class="popup__left">
-                <img src="img/Novigrad.png"
-                     alt="Novigrad photo"
+                <img src="img/witcher-2.jpg"
+                     alt="Popup photo 1"
                      class="popup__img">
-                <img src="img/Skellige_Islands.png"
-                     alt="Island photo"
+                <img src="img/witcher-3-large.jpg"
+                     alt="Popup photo 2"
                      class="popup__img">
             </div>
             <div class="popup__right">
