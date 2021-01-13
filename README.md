@@ -8,8 +8,10 @@ Includes
 - CSS architecture: 7-1 folder structure
 - BEM methodology (The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS)
 - SASS
+- Responsive Images
 
-<img src="https://res.cloudinary.com/snapko/image/upload/c_scale,q_auto:eco,w_300/v1610393053/Github/page.png" width="300" />
+<img src="https://res.cloudinary.com/snapko/image/upload/c_scale,q_auto:eco,w_300/v1610476017/Github/page.png" width="300" />
+
 
 ## License
 
